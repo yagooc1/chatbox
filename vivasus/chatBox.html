@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Médico Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Faixa verde VIVA SUS -->
+  <div class="viva-sus-header">
+    <img src="c:\Users\yagom\Downloads\e96efc28627426ae23fb958e399ac2f942cf1deb.png" alt="VIVA SUS">
+  </div>
+
+  <!-- Chat box -->
+  <div class="chatbox-container">
+    <div class="chatbox-header">
+  <img src="https://cdn-icons-png.flaticon.com/512/706/706797.png" class="doctor-avatar" alt="Médico Avatar">
+  
+  <div class="doctor-info">
+    <strong class="doctor-name">Médico online</strong>
+    <div class="status-line"><span class="status-dot"></span> <span class="status-text">Online</span></div>
+  </div>
+
+  <button class="close-btn">×</button>
+</div>
+
+    <div class="chatbox-body">
+      <div class="message user">Você sente alguma dor?</div>
+      <div class="message bot">Nenhum desconforto informado.</div>
+      <div class="message user">Deseja falar sobre os sintomas?</div>
+      <div class="message bot">Estamos aqui para ajudar da melhor forma possível.</div>
+    </div>
+
+    <div class="chatbox-footer">
+      <button class="plus-btn">+</button>
+      <input type="text" id="userInput" placeholder="Escreva algo...">
+      <button class="send-btn" onclick="enviarMensagem()">↑</button>
+    </div>
+  </div>
+
+  <script src="chatBox.js"></script>
+</body>
+</html>
